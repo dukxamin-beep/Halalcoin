@@ -29,7 +29,7 @@ import { Providers } from './providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Halal Crypto - Shariah-Compliant Trading Platform',
+  title: 'SuanPlooCoin Crypto - Shariah-Compliant Trading Platform',
   description: 'Trade interest-free cryptocurrencies on Base blockchain',
 };
 
@@ -61,7 +61,7 @@ const config = createConfig({
   chains: [base],
   connectors: [
     coinbaseWallet({
-      appName: 'Halal Crypto',
+      appName: 'SuanPlooCoin Crypto',
       preference: 'smartWalletOnly',
     }),
   ],
@@ -108,7 +108,7 @@ export default function Home() {
             <span className="text-6xl">🕌</span>
           </div>
           <h1 className="text-5xl font-bold text-emerald-900 mb-4">
-            Halal Crypto
+             SuanPlooCoin Crypto
           </h1>
           <p className="text-xl text-emerald-700 mb-8">
             Shariah-Compliant Cryptocurrency Trading Platform
@@ -121,7 +121,7 @@ export default function Home() {
       <section className="py-12 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-emerald-900 mb-8 text-center">
-            ✅ Halal Certified Cryptocurrencies
+            ✅  SuanPlooCoin Certified Cryptocurrencies
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {coins.map((coin) => (
